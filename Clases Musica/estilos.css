@@ -1,0 +1,160 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap
+}
+
+body{
+    background-image: url(/imagenes/fondo.png);
+}
+
+/*-----menu-----*/
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: none;
+    background-color:rgba(0, 0, 0, 0.459);
+    height: fit-content;
+}
+
+.boton {
+    margin: 10px 40px;
+    background: none;
+    cursor: pointer;
+    border: none;
+    z-index: 20;
+}
+
+.links{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-top: 6rem;
+    top: 0;
+}
+
+.links a{
+    text-decoration: none;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    color: white;
+    text-align: right;
+}
+
+.contacto {
+    display: flex;
+    margin: 20px 40px;
+}
+
+.igwsp {
+    display: flex;
+    align-items: center;
+}
+
+.igwsp a {
+    text-decoration: none;
+}
+
+.igwsp p {
+    font-size: 22px;
+    color: white;
+    padding: 20px;
+}
+
+/*-----header-----*/
+
+.img {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.container h1 {
+    font-size: 32px;
+}
+
+/*------main------*/
+
+.acercaDeMi {
+    min-height: 612px;
+    background-color: white;
+}
+
+.acercaDeMi h1 {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 32px;
+}
+
+.acercaDeMi p {
+    font-size: 22px;
+    margin: 30px 60px;
+}
+
+/*------cursos------*/
+
+.cursos {
+    width: 100%;
+    min-height: 612px;
+}
+
+.cursos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.curso img {
+    width: 10rem;
+    border-radius: 100px;
+    border: solid white 3px;
+}
+
+.curso p {
+    font-size: 22px;
+    color: white;
+    margin-top: 10px;
+}
+
+/*-----contacto-----*/
+
+.info1{
+    background-color: white;
+}
+
+.informacionTitulo {
+    text-align: center;
+    padding: 3rem;
+}
+
+.informacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 475px;
+}
+
+
